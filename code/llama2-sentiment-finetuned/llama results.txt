@@ -1,0 +1,54 @@
+llama tweets 
+{'eval_loss': 0.6314646601676941, 'eval_accuracy': 0.7644444444444445, 'eval_precision': 0.7666638694079801, 'eval_recall': 0.7644444444444445, 'eval_f1': 0.7640882708345714, 'eval_runtime': 274.3357, 'eval_samples_per_second': 6.561, 'eval_steps_per_second': 6.561, 'epoch': 5.0}
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.76      0.76      0.76       600
+     Neutral       0.74      0.82      0.78       600
+    Positive       0.80      0.71      0.76       600
+
+    accuracy                           0.76      1800
+   macro avg       0.77      0.76      0.76      1800
+weighted avg       0.77      0.76      0.76      1800
+
+
+
+Epoch   Training Loss   Validation Loss Accuracy    Precision   Recall      F1
+1       0.779700        0.744764        0.685556    0.698072    0.685556    0.684613
+2       0.607700        0.594036        0.758889    0.760501    0.758889    0.758809
+3       0.378200        0.631465        0.764444    0.766664    0.764444    0.764088
+4       0.213000        0.833590        0.761111    0.763983    0.761111    0.760592
+5       0.095500        1.127940        0.755000    0.754960    0.755000    0.754941
+
+
+llama wines 
+
+{'eval_loss': 0.6631556, 'eval_accuracy': 0.7644444444444445, 'eval_precision': 0.7666638694079801, 'eval_recall': 0.7644444444444445, 'eval_f1': 0.7640882708345714, 'eval_runtime': 274.3357, 'eval_samples_per_second': 6.561, 'eval_steps_per_second': 6.561, 'epoch': 5.0}
+
+Classification Report:
+                          precision    recall  f1-score   support
+
+Bordeaux-style Red Blend       0.86      0.87      0.87       800
+      Cabernet Sauvignon       0.71      0.77      0.75       800
+              Chardonnay       0.61      0.66      0.64       800
+                  Merlot       0.57      0.64      0.61       800
+              Pinot Noir       0.68      0.74      0.70       800
+               Red Blend       0.74      0.71      0.73       800
+                Riesling       0.88      0.84      0.86       800
+                    Rosé       0.87      0.83      0.86       800
+         Sauvignon Blanc       0.69      0.82      0.75       800
+                   Syrah       0.76      0.69      0.73       800
+
+                Accuracy                           0.75       8000
+               Macro avg       0.75      0.75      0.75       8000
+            Weighted avg       0.75      0.75      0.75       8000
+
+
+
+
+Epoch   Training Loss   Validation Loss Accuracy    Precision   Recall      F1
+1       0.780000        0.740000        0.803386    0.818053    0.803386    0.802281
+2       0.600000        0.580000        0.889323    0.891212    0.889323    0.889229
+3       0.400000        0.500000        0.895833    0.898434    0.895833    0.895416
+4       0.250000        0.750000        0.891927    0.895293    0.891927    0.891319
+5       0.150000        1.000000        0.884766    0.884719    0.884766    0.884696
